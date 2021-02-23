@@ -1,0 +1,27 @@
+<!doctype html>
+<title>HW5: GET and POST checker</title>
+<h1>GET Request Received</h1>
+<table>
+  <thead>
+    <tr>
+      <th>
+        Parameter
+      </th>
+      <th>
+        Data
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    {{# each dataList}}
+      <tr>
+        <td>
+          {{this.name}}
+        </td>
+        <td>
+          {{this.value}}
+        </td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
